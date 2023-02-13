@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 10s linear;
+    animation: App-logo-spin infinite 3s linear;
   }
 }
 
@@ -32,7 +32,18 @@
   from {
     transform: rotateY(0deg);
   }
-  to {
-    transform: rotateY(360deg);
+  50%{
+    transform: rotateY(90deg);
+    transform: rotateY(90deg);
   }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+footer p{
+  height:"150px";
+  background-color:aquamarine;
+  margin: 0;
+  padding:20px 0;
 }
