@@ -1,1 +1,1 @@
-# patoru-client
+# patour-client
