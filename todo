@@ -1,0 +1,27 @@
+"
+Build the static basic layout
+    navbar
+    pages
+        home
+        product
+            product page
+            brand page
+            category page
+        service
+            import export
+            distribution
+            sourcing
+            consulting
+                setup company in Hungary
+                Visa
+        About Us
+            The Company
+            The Team
+            Testimonial 
+        Contact
+            Email
+            Social Link
+Build the route between the pages
+Build authentication
+Build Product 
+"
