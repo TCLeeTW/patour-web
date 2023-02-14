@@ -1,4 +1,6 @@
 import React from "react";
+import MainLogo from '../img/Main_Logo_18_Lb.png';
+
 function HeaderSection() {
     return (
         <div>
@@ -7,7 +9,7 @@ function HeaderSection() {
                 <div className="container d-flex align-items-center justify-content-lg-between">
 
                     {/* <h1 className="logo me-auto me-lg-0"><a href="index.html">Patour<span>.</span></a></h1> */}
-                    <a href="index.html" className="logo me-auto me-lg-0"><img src="./assets/img/Main_logo 18_Lb.png" alt="" className="img-fluid" /></a>
+                    <a href="index.html" className="logo me-auto me-lg-0"><img src={MainLogo} alt="" className="img-fluid" /></a>
 
                     <nav id="navbar" className="navbar order-last order-lg-0">
                         <ul>
