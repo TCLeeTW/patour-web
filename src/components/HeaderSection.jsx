@@ -13,27 +13,45 @@ function HeaderSection() {
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
                         <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a className="nav-link scrollto" href="#about">About</a></li>
-                        <li><a className="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                        <li><a className="nav-link scrollto" href="#team">Team</a></li>
-                        <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
+                        <li className="nav-link scrollto dropdown"><a href="#about"><span>About</span> <i className="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Drop Down 1</a></li>
-                                <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
-                                    <ul>
-                                        <li><a href="#">Deep Drop Down 1</a></li>
-                                        <li><a href="#">Deep Drop Down 2</a></li>
-                                        <li><a href="#">Deep Drop Down 3</a></li>
-                                        <li><a href="#">Deep Drop Down 4</a></li>
-                                        <li><a href="#">Deep Drop Down 5</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Drop Down 2</a></li>
-                                <li><a href="#">Drop Down 3</a></li>
-                                <li><a href="#">Drop Down 4</a></li>
+                                <li><a href="#">The Company</a></li>
+                                <li><a href="#team">The Team</a></li>
+                                <li><a href="#">Testimonial</a></li>
                             </ul>
                         </li>
+                        <li className="nav-link scrollto dropdown"><a href="#services"><span>Services</span> <i className="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Trading</a></li>
+                                <li><a href="#">Distribution</a></li>
+                                <li><a href="#">Sourcing</a></li>
+                                <li className="dropdown"><a href="#"><span>Consulting</span> <i className="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Company Setting in Hungary</a></li>
+                                        <li><a href="#">Visa</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-link scrollto dropdown"><a href="#portfolio"><span>Products</span> <i className="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li className="dropdown"><a href="#"><span>By Brands</span> <i className="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">ExcluJess</a></li>
+                                        <li><a href="#">Marie Jeanne</a></li>
+                                    </ul>
+                                </li>
+                                <li className="dropdown"><a href="#"><span>By Categories</span> <i className="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Candles</a></li>
+                                        <li><a href="#">Perfumes</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">All Products</a></li>
+                                
+                            </ul>
+                        </li>
+
                         <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
