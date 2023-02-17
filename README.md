@@ -14,6 +14,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+#### Failed to start with error message 
+  Error: error:0308010C:digital envelope routines::unsupported
+  throw err;
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+
+Try to follow this solution (https://stackoverflow.com/questions/69962209/what-is-openssl-legacy-provider-in-node-js-v17)
+  Original code:
+  `  "start": "react-scripts start",`
+  `  "build": "react-scripts build",`
+  Updated code:
+  `"start": "react-scripts --openssl-legacy-provider start",`
+  `"build": "react-scripts --openssl-legacy-provider build",`
+Explain: ???
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

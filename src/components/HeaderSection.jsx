@@ -57,7 +57,7 @@ function HeaderSection() {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
 
-                <a href="#about" className="get-started-btn scrollto">Get Started</a>
+                <a href="#about" className="get-started-btn scrollto">Login</a>
 
             </div>
         </header>
