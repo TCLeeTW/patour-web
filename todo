@@ -1,5 +1,16 @@
-"
-Build the static basic layout
+Reconstructure
+    2/25 Cut section into components 
+    3/04 Impliment React
+    3/11 Build Product page
+    3/18 Build product database
+    3/25 Build Product input page
+    
+
+    Build Login
+    Limit Editing access to Manager
+    Build cart feature
+
+Content
     navbar
     pages
         home
@@ -20,8 +31,6 @@ Build the static basic layout
             Testimonial 
         Contact
             Email
-            Social Link
-Build the route between the pages
-Build authentication
-Build Product 
-"
+            Social Link        
+UI
+    Theme Color
